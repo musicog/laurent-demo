@@ -1,0 +1,118 @@
+schema_version: 3
+campaign:
+  name: "laurent-demo"
+  title: "Test"
+  description: "Some notes about the campaign"
+  instigator: "5521800"
+  repo_id: 1411518446
+  language: "en"
+  license: "CC-BY-4.0"
+automation:
+  central_repository: "lets-encode/lets-encode"
+  ref: "staging"
+  path: "scripts/coordinator.ts"
+source:
+  kind: "facsimile"
+  images:
+    - "sources/img/01.jpg"
+    - "sources/img/02.jpg"
+    - "sources/img/03.jpg"
+    - "sources/img/04.jpg"
+    - "sources/img/05.jpg"
+    - "sources/img/06.jpg"
+    - "sources/img/07.jpg"
+    - "sources/img/08.jpg"
+    - "sources/img/09.jpg"
+    - "sources/img/10.jpg"
+    - "sources/img/11.jpg"
+    - "sources/img/12.jpg"
+    - "sources/img/13.jpg"
+    - "sources/img/14.jpg"
+    - "sources/img/15.jpg"
+    - "sources/img/16.jpg"
+    - "sources/img/17.jpg"
+    - "sources/img/18.jpg"
+    - "sources/img/19.jpg"
+    - "sources/img/20.jpg"
+    - "sources/img/21.jpg"
+    - "sources/img/22.jpg"
+    - "sources/img/23.jpg"
+    - "sources/img/24.jpg"
+    - "sources/img/25.jpg"
+    - "sources/img/26.jpg"
+    - "sources/img/27.jpg"
+    - "sources/img/28.jpg"
+    - "sources/img/29.jpg"
+    - "sources/img/30.jpg"
+    - "sources/img/31.jpg"
+    - "sources/img/32.jpg"
+    - "sources/img/33.jpg"
+    - "sources/img/34.jpg"
+    - "sources/img/35.jpg"
+    - "sources/img/36.jpg"
+    - "sources/img/37.jpg"
+    - "sources/img/38.jpg"
+    - "sources/img/39.jpg"
+    - "sources/img/40.jpg"
+  header:
+    title: "Violin Sonata, Op.8"
+    composer: "Grandval"
+    publisher: ""
+    date: ""
+  rights_acknowledged: "1"
+pieces:
+  - id: "piece-01"
+    kind: "facsimile"
+    preparation: "omr"
+    path: "sources/piece-01/score.mei"
+    zones:
+      - { surface: 1, ulx: 0, uly: 0, lrx: 3064, lry: 4059 }
+      - { surface: 2, ulx: 0, uly: 0, lrx: 3110, lry: 4067 }
+      - { surface: 3, ulx: 0, uly: 0, lrx: 3072, lry: 4063 }
+      - { surface: 4, ulx: 0, uly: 0, lrx: 3089, lry: 4076 }
+      - { surface: 5, ulx: 0, uly: 0, lrx: 3072, lry: 4067 }
+      - { surface: 6, ulx: 0, uly: 0, lrx: 3085, lry: 4076 }
+      - { surface: 7, ulx: 0, uly: 0, lrx: 3072, lry: 4067 }
+      - { surface: 8, ulx: 0, uly: 0, lrx: 3085, lry: 4067 }
+      - { surface: 9, ulx: 0, uly: 0, lrx: 3064, lry: 4063 }
+      - { surface: 10, ulx: 0, uly: 0, lrx: 3080, lry: 4067 }
+      - { surface: 11, ulx: 0, uly: 0, lrx: 3055, lry: 4067 }
+      - { surface: 12, ulx: 0, uly: 0, lrx: 3068, lry: 4067 }
+      - { surface: 13, ulx: 0, uly: 0, lrx: 3043, lry: 4063 }
+      - { surface: 14, ulx: 0, uly: 0, lrx: 3060, lry: 4071 }
+      - { surface: 15, ulx: 0, uly: 0, lrx: 3047, lry: 4063 }
+      - { surface: 16, ulx: 0, uly: 0, lrx: 3068, lry: 4071 }
+      - { surface: 17, ulx: 0, uly: 0, lrx: 3047, lry: 4063 }
+      - { surface: 18, ulx: 0, uly: 0, lrx: 3068, lry: 4071 }
+      - { surface: 19, ulx: 0, uly: 0, lrx: 3060, lry: 4063 }
+      - { surface: 20, ulx: 0, uly: 0, lrx: 3060, lry: 4071 }
+      - { surface: 21, ulx: 0, uly: 0, lrx: 3055, lry: 4063 }
+      - { surface: 22, ulx: 0, uly: 0, lrx: 3051, lry: 4076 }
+      - { surface: 23, ulx: 0, uly: 0, lrx: 3068, lry: 4067 }
+      - { surface: 24, ulx: 0, uly: 0, lrx: 3051, lry: 4067 }
+      - { surface: 25, ulx: 0, uly: 0, lrx: 3051, lry: 4059 }
+      - { surface: 26, ulx: 0, uly: 0, lrx: 3051, lry: 4067 }
+      - { surface: 27, ulx: 0, uly: 0, lrx: 3064, lry: 4063 }
+      - { surface: 28, ulx: 0, uly: 0, lrx: 3060, lry: 4067 }
+      - { surface: 29, ulx: 0, uly: 0, lrx: 3064, lry: 4067 }
+      - { surface: 30, ulx: 0, uly: 0, lrx: 3064, lry: 4067 }
+      - { surface: 31, ulx: 0, uly: 0, lrx: 3068, lry: 4063 }
+      - { surface: 32, ulx: 0, uly: 0, lrx: 3060, lry: 4067 }
+      - { surface: 33, ulx: 0, uly: 0, lrx: 3064, lry: 4067 }
+      - { surface: 34, ulx: 0, uly: 0, lrx: 3055, lry: 4067 }
+      - { surface: 35, ulx: 0, uly: 0, lrx: 3055, lry: 4059 }
+      - { surface: 36, ulx: 0, uly: 0, lrx: 3060, lry: 4067 }
+      - { surface: 37, ulx: 0, uly: 0, lrx: 3047, lry: 4059 }
+      - { surface: 38, ulx: 0, uly: 0, lrx: 3047, lry: 4067 }
+      - { surface: 39, ulx: 0, uly: 0, lrx: 3018, lry: 4071 }
+      - { surface: 40, ulx: 0, uly: 0, lrx: 3035, lry: 4076 }
+    header:
+      title: "Violin Sonata, Op.8"
+      composer: "Grandval"
+fragmentation:
+  strategy: "by-piece"
+validation:
+  required_validations: 1
+  pass_threshold: 1
+locking:
+  stale_after_minutes: 1440
